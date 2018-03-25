@@ -2,7 +2,7 @@
 
 This repository has code from a lab course on embedded programming using the MSP430 that I made for Rutgers. The topic list and original lectures are below. The original course has a number of associated lectures with example code, short "lab" projects, and some topics have larger projects that integrate the topics so far. I will also be creating larger, almost useful projects using the topics in the this outline.
 
-Below is a list of topics and the associated lectures, lab projects, or take-home projects.
+Below is a list of topics and the associated lectures, lab projects, or take-home projects. The numbers denote in which class the lecture, lab, or take-home project appears.
 
 ## Topic: Reintroduction to C
 ### 01 Lecture: binary operators, volatile, pragmas, interrupts, registers
@@ -14,9 +14,9 @@ Below is a list of topics and the associated lectures, lab projects, or take-hom
 ###    02 Lecture: Output, power consumption (pull up/down), watchdog timer
 ###    03 Lab: blink an LED at a desired rate
 ###    04 Project: Smiley face drawing (or write a word) with persistence of vision
-####                In class we do a lab to display the smiley face
-####                As a take home project groups spell out words
-####                Class 05 starts with a small quiz on interrupts, the WDT, and digital output
+1. In class we do a lab to display the smiley face
+2. As a take home project groups spell out words
+3. Class 05 starts with a small quiz on interrupts, the WDT, and digital output
 
 ## Topic: Advanced timer controls
 ###    05 Lecture: Hardware controlled output, other output pin modes
@@ -34,7 +34,8 @@ Below is a list of topics and the associated lectures, lab projects, or take-hom
 ###    13 Analog to digital conversion
 ###    14 Lab: Check input power level when using a solar cell
 
-## Topic: Low Power Mode (already introduced this because it is needed for solar cell!)
+## Topic: Low Power Mode
+   This was already introduced since it is needed when powering the board with a solar cell earlier and when measuring low power consumption.
 ###    15 Lab: Wake from low power sleep with button clicks (Currently LPM is in lecture 7)
 ###    16 Project: morse code clicker (with low power)
 
